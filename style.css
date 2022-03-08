@@ -1,0 +1,85 @@
+
+body {
+    margin: 0px;
+    font-family: "Tahoma", sans-serif;
+}
+
+/* below this point is styling for the header section */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    padding: 0px 150px 100px 150px;
+    gap: 80px;
+    flex: 1;
+}
+
+.header-bottom, .header-top {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header-logo {
+    font-size: 24px;   
+    color: #F9FAF8; 
+    font-weight: 700;
+}
+
+.links-right {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links-left {
+    padding: 0;
+}
+
+.header-top {
+    justify-content: space-between;
+    line-height: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.placeholder {
+    flex: 1;
+}
+
+.para {
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.image {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
