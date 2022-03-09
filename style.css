@@ -64,15 +64,15 @@ li {
     color: #F9FAF8;
 }
 
-button {
+.button-1 {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 700;
     padding: 5px 20px 5px 20px;
     border-radius: 10px;
-    border-color: white;
     border-style: solid;
+    border-color: #3882f6;
 }
 
 .image {
@@ -82,4 +82,45 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Below this point is styling for section 2 */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    padding: 0 200px 80px 200px;
+    gap: 20px;
+}
+
+.box-section {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.info-para {
+    text-align: center;
+    color: grey;
 }
