@@ -182,3 +182,12 @@ li {
     border-style: solid;
     border-color: white;
 }
+
+/* Footer below here */
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+}
