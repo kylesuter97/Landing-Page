@@ -150,3 +150,35 @@ li {
     margin: 0;
     text-align: right;
 }
+
+/* Below here is the styling for the call to action section */
+
+.call-to-action {
+    margin: 80px 150px 80px 150px;
+    padding: 40px 80px 40px 80px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.h2, .sign-up {
+    margin: 0;
+}
+
+.h2 {
+    font-size: 24px;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
